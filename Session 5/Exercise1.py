@@ -20,3 +20,27 @@ print(my_team)
 #1c
 pokedex= pokemon+my_team
 print(pokedex)
+
+#1d
+pokedex.insert(2, "Rattata")
+print(pokedex)
+
+#1e
+pokedex_length=len(pokedex)
+print(pokedex_length)
+
+#1f 
+n=0
+for number in range (pokedex_length):
+    print(pokedex[n])
+    n=n+1
+
+#1g
+
+if "Charizard" in pokedex:
+    print("Charizard is in the pokedex")
+else:
+    print("Charizard is not in the pokedex")
+
+
+    
