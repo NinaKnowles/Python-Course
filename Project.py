@@ -83,8 +83,8 @@ def pokemon_api(pokemon_name):
     pokemon_description=pokemon_stats["flavor_text_entries"][8]["flavor_text"]
     input()
     print()
+    print('Pokemon description:')
     print(pokemon_description)
-    print()
     print()
     input()
 
